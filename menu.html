@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>prueba menu</title>
+	<style>
+    /*=============MENU======================*/
+        #nav ul
+        {
+            margin:0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        #nav ul li
+        {
+           display: inline-block;
+           vertical-align: top;
+           margin-right: 2em;
+        }
+
+        #nav ul li ul
+        {
+            position: absolute;
+            display: none;
+        }
+
+        #nav ul li ul > li
+        {
+            width: 100%; /*para que los submenus queden vertical*/
+        }
+
+        #nav ul li:hover > ul
+        {
+            display: block;
+        }
+    /*=============MENU======================*/
+	</style>
+</head>
+<body>
+	<div id="contenedor">
+		<header>
+			<nav id="nav">
+                    <ul>
+                        <li>Inicio</li>
+                        <li class="menu">Material
+                            <ul class="submenu">
+                                <li>Talleres</li>
+                                <li>Recursos</li>
+                                <li>Recopilaciones</li>
+                            </ul>
+                        </li>
+                        <li>Mi Sitio
+                            <ul class="submenu">
+                                <li>1</li>
+                                <li>2</li>
+                                <li>3</li>
+                            </ul>
+                        </li>
+                        <li>Eventos</li>
+                        <li>Comunidades</li>
+                        <li>Ponentes</li>
+                        <li>Discusiones</li>
+                    </ul>
+                </nav>
+		</header>
+	</div>
+
+</body>
+</html>

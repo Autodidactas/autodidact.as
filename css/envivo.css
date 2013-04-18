@@ -1,0 +1,68 @@
+.live-izq
+{
+    width:58.2%;
+    margin-right: 1em;
+
+    -webkit-transition: all 0.2s ease-out;
+       -moz-transition: all 0.2s ease-out;
+        -ms-transition: all 0.2s ease-out;
+         -o-transition: all 0.2s ease-out;
+            transition: all 0.2s ease-out;
+}
+
+.live-der
+{
+    width: 38.3%;
+
+    -webkit-transition: all 0.2s ease-out;
+       -moz-transition: all 0.2s ease-out;
+        -ms-transition: all 0.2s ease-out;
+         -o-transition: all 0.2s ease-out;
+            transition: all 0.2s ease-out;
+}
+
+.live-der, .live-izq
+{
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.live-main
+{
+	margin-top: 1em;
+}
+
+.live-main .live-izq, .live-main .live-der
+{
+    border:5px solid rgba(225,235,250,0.5);
+    box-shadow:0 2px 3px rgba(0,0,0,0.5);
+    border-radius:0.5em;
+}
+
+.live-izq .video iframe, .live-der .chat iframe
+{
+    width: 100%;
+    min-height: 480px;
+}
+
+.compartir
+{
+    margin-top:0.5em;
+}
+
+.compartir div
+{
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+.tw-btn
+{
+    bottom:1px;
+}
+
+.fp-btn
+{
+ 	bottom:-1px;
+}
